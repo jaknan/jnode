@@ -1,0 +1,58 @@
+/etc/gdm3/Xsession: Beginning session setup...
+stdin: is not a tty
+localuser:root being added to access control list
+GNOME_KEYRING_CONTROL=/root/.cache/keyring-yv0zHI
+SSH_AUTH_SOCK=/root/.cache/keyring-yv0zHI/ssh
+GNOME_KEYRING_PID=3059
+GNOME_KEYRING_CONTROL=/root/.cache/keyring-yv0zHI
+SSH_AUTH_SOCK=/root/.cache/keyring-yv0zHI/ssh
+GNOME_KEYRING_CONTROL=/root/.cache/keyring-yv0zHI
+SSH_AUTH_SOCK=/root/.cache/keyring-yv0zHI/ssh
+GNOME_KEYRING_CONTROL=/root/.cache/keyring-yv0zHI
+SSH_AUTH_SOCK=/root/.cache/keyring-yv0zHI/ssh
+GPG_AGENT_INFO=/root/.cache/keyring-yv0zHI/gpg:0:1
+
+** (gnome-settings-daemon:3048): WARNING **: Failed to connect context: OK
+
+(gnome-settings-daemon:3048): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(gnome-settings-daemon:3048): color-plugin-WARNING **: unable to get EDID for xrandr-VGA1: unable to get EDID for output
+
+(gnome-panel:3246): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+
+** (gnome-panel:3246): WARNING **: Unable to parse mouse modifier '(null)'
+
+glibtop: Non-standard uts for running kernel:
+release 3.7-trunk-686-pae=3.7.0 gives version code 198400
+
+Initializing tracker-store...
+Creating config directory:'/root/.config/tracker'
+Tracker-Message: Setting up monitor for changes to config file:'/root/.config/tracker/tracker-store.cfg'
+
+** (gnome-user-share:3267): WARNING **: gnome-user-share cannot be started as root for security reasons.
+Tracker-Message: Setting up monitor for changes to config file:'/root/.config/tracker/tracker-store.cfg'
+Could not open log:'/root/.local/share/tracker/tracker-store.log', No such file or directory
+All logging will go to stderr
+Starting log:
+  File:'/root/.local/share/tracker/tracker-store.log'
+Initializing tracker-miner-fs...
+Tracker-Message: Setting up monitor for changes to config file:'/root/.config/tracker/tracker-miner-fs.cfg'
+Starting log:
+  File:'/root/.local/share/tracker/tracker-miner-fs.log'
+W: [pulseaudio] main.c: This program is not intended to be run as root (unless --system is specified).
+** Message: applet now removed from the notification area
+Initializing nautilus-gdu extension
+
+(gnome-panel:3246): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+
+** (gnome-panel:3246): WARNING **: Unable to parse mouse modifier '(null)'
+
+
+(gnome-panel:3246): GLib-GObject-WARNING **: /build/buildd-glib2.0_2.33.12+really2.32.4-5-i386-eISom6/glib2.0-2.33.12+really2.32.4/./gobject/gsignal.c:2459: signal `size_request' is invalid for instance `0x891c188'
+** Message: applet now embedded in the notification area
+
+(notification-daemon:3283): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -23 and height 27
+
+(notification-daemon:3283): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -23 and height 27
+
+(tracker-miner-fs:3260): Tracker-WARNING **: Couldn't properly parse desktop file 'file:///usr/share/desktop-directories/02-07-nessus.directory': 'Couldn't load desktop file:'/usr/share/desktop-directories/02-07-nessus.directory''
